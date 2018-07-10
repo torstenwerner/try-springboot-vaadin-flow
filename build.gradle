@@ -47,6 +47,7 @@ jar {
 
 vaadin {
     version vaadinVersion
+    productionMode = true
 }
 
 bootRun.systemProperties = System.properties // pass sysprops down to bootRun, so we can add them in configs in intellij
