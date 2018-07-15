@@ -59,6 +59,10 @@ task wrapper(type: Wrapper) {
 
 ext['groovy.version'] = groovyVersion
 
+configurations {
+    runtime.exclude group: "org.slf4j", module: "slf4j-simple"
+}
+
 dependencies {
     implementation 'org.codehaus.groovy:groovy'
     implementation "com.vaadin:vaadin-spring-boot-starter:${vaadinVersion}"
