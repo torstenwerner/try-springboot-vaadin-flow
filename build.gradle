@@ -1,7 +1,7 @@
 buildscript {
     ext {
         springBootVersion = '2.0.2.RELEASE'
-        vaadinFlowPluginVersion = "1.0.0.M3"
+        vaadinFlowPluginVersion = "1.0.0.M3.1"
     }
     repositories {
         mavenCentral()
